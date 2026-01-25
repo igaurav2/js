@@ -16,3 +16,26 @@ const myFunction = function(){
 }
 
 console.table([typeof myFunction, typeof myObj, typeof arr, typeof null])
+
+
+// Stack and Heap
+
+// ---- stack memory is allocated for primitive dataType
+let priName = "Gaurav"
+let anotherName = priName
+anotherName = "Aditya"
+
+console.log(priName)
+console.log(anotherName)
+
+// ---- heap memory is allocated for non primitive or reference dataType
+let userOne = {
+    email: "g@gmail.com",
+    upi: "g@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "a@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
