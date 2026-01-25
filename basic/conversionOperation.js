@@ -15,3 +15,8 @@ let valueInNumberD = Number(d)
 let valueInNumberE = Number(e)
 
 console.table([valueInNumberA, valueInNumberB, valueInNumberC, valueInNumberD, valueInNumberE])
+
+console.log("1" + 2 + 3)
+console.log(1 + 2 + "3")
+
+// other operators are same as used before
