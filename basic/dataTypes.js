@@ -11,17 +11,10 @@
 // undefined ==> value is not assigned
                  // Output
 let a;
-console.log(a);  // undefined
-
-// console.log(b);  // undefined
-// var b = 4;
-
-// console.log(c);  // ReferenceError: Cannot access 'c' before initialization
-// let c = 8;
-
+console.log(a);  // ---> undefined
 
 // not defined
-console.log(p);  // ReferenceError: p is not defined
+console.log(p);  // ---> ReferenceError: p is not defined
 
 
 

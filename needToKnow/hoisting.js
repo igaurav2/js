@@ -26,3 +26,9 @@ var setName = () => {
 var resetName = function(){
     console.log("Souvik");
 }
+
+/* temporalDeadZone ==> phase from hoisting till it assign some value
+       |
+       |--> console.log(c);  // ReferenceError: Cannot access 'c' before initialization
+            let c = 8;
+*/
