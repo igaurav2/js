@@ -46,3 +46,10 @@ var e = function(){
     return function firstClass () {}
 }
 console.log(e());   //---> [Function: firstClass]
+
+
+/* -------- Callback Function ==> function which is passed to another function
+    gives access to the whole async world in a synchronous single threaded language */
+setTimeout(function () {
+    console.log("callbackFunction");
+}, 5000);
